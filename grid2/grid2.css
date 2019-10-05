@@ -1,0 +1,53 @@
+body {
+    height: 200vh;
+    margin: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+
+.relative {
+    height: 100vh;
+    position: relative;
+    align-self: center;
+}
+
+h2 {
+    font-size: 12rem;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.white {
+    position: absolute;
+    top: 20vw;
+    left: 20vw;
+    color: rgb(41, 10, 177);
+    z-index: 1;
+}
+
+.transparent {
+    position: absolute;
+    top: 20vw;
+    left: 20vw;
+    color: transparent;
+    z-index: 3;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#fff;
+}
+
+#circle {
+    position: absolute;
+    background-color: rgb(241, 206, 178);
+    border-radius: 50%;
+    height: 75vh;
+    width: 30vw;
+    z-index: 2;
+
+}
+
+
+
