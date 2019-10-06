@@ -24,7 +24,9 @@ h2 {
     position: absolute;
     top: 20vw;
     left: 20vw;
-    color: rgb(41, 10, 177);
+    color: #fff;
+
+    /*color: rgb(41, 10, 177); */
     z-index: 1;
 }
 
@@ -41,13 +43,26 @@ h2 {
 
 #circle {
     position: absolute;
-    background-color: rgb(241, 206, 178);
+    background-color: #000;
     border-radius: 50%;
     height: 75vh;
     width: 30vw;
     z-index: 2;
-
+    transition: transform 3s ease-out;
+    left: -40vw;
 }
+
+
+.zap {
+	transform: translateX(130vw);
+}
+
+
+/* .trigger {
+    background: blue;
+    width: 100vw;
+    height: 1px;
+} */
 
 
 
